@@ -6,7 +6,7 @@
     height: 20px;
     width: 28px;
     cursor: pointer;
-    @include transition-ease;
+    // @include transition-ease;
 
     &__burger {
         position: absolute;
@@ -15,7 +15,7 @@
         width: 28px;
         height: 3px;
         background: set-text-color($primary-color);
-        @include transition-ease;
+        // @include transition-ease;
 
         &::before {
             content: '';
@@ -24,7 +24,7 @@
             width: 28px;
             height: 3px;
             background: set-text-color($primary-color);
-            @include transition-ease;
+            // @include transition-ease;
         }
 
         &::after {
@@ -34,7 +34,7 @@
             width: 20px;
             height: 3px;
             background: set-text-color($primary-color);
-            @include transition-ease;
+            // @include transition-ease;
         }
 
         &.open {
